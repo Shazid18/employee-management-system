@@ -17,18 +17,21 @@ This project is an Employee Management System built using the Django web framewo
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-name/employee-management-system.git
+   git clone [https://github.com/your-repo-name/employee-management-system.git](https://github.com/Shazid18/employee-management-system.git)
    cd employee-management-system
    
 2. Create and activate a virtual environment:
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-3. Install the required packages:
+4. Install the required packages:
+   ```bash
    pip install -r requirements.txt
 
-4. Run the application:
+6. Run the application:
+   ```bash
    python manage.py migrate
    python manage.py runserver
 
-5. Access the application at http://127.0.0.1:8000/
+8. Access the application at http://127.0.0.1:8000/
