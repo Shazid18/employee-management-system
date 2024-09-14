@@ -17,7 +17,7 @@ This project is an Employee Management System built using the Django web framewo
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-repo-name/employee-management-system.git](https://github.com/Shazid18/employee-management-system.git)
+   git clone https://github.com/Shazid18/employee-management-system.git
    cd employee-management-system
    
 2. Create and activate a virtual environment:
