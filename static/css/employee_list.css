@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #white;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Search Form */
+.search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-form input, .search-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #2980b9;
+}
+
+/* Employee Table */
+.employee-table {
+    width: 180%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.employee-table th, .employee-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.employee-table th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.employee-table td img.employee-photo {
+    border-radius: 50%;
+}
+
+.employee-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Actions */
+.actions .btn-edit {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.actions .btn-edit:hover {
+    background-color: #218838;
+}
+
+.actions .btn-delete {
+    background-color: none;
+    color: red;
+    padding: 5px 10px;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+}
+
+.actions .btn-delete:hover {
+    color: darkred;
+}
+
+
+.pagination {
+    margin-top: 40px; /* Increased margin to push pagination down */
+    text-align: center; /* Center pagination links */
+}
+
+/* Pagination */
+.pagination a {
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #2980b9;
+}
+
+.pagination strong {
+
+    padding: 8px 16px;
+    margin: 4px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}

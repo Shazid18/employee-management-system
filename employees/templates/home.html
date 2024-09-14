@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1>Welcome to Our Company</h1>
+    <img class="landing-image" src="{% static 'images/company_landing.png' %}" alt="Company Image"/>
+    <p>
+        Welcome to the company dashboard. From here, you can view the list of employees, add new employees, 
+        and manage the employee database. Use the sidebar to navigate to different sections.
+    </p>
+{% endblock %}
